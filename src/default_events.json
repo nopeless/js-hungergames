@@ -1,0 +1,11 @@
+{
+	"nonfatal": {
+		"bloodbath": [
+			"p1 grabs a shovel",
+			"p1 kills p1"
+		]
+	},
+	"fatal": {
+
+	}
+}
