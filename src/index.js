@@ -20,8 +20,20 @@ const events = [
 	["p1 made an oppsie in math homeowrk and got hunted down by Lee", "->p1"],
 	["p1 tried to acd and got banned", "->p1"],
 	["p1 'accidentally' pushes p2 off a cliff","p1->p2"],
-	["p1 and p2 get in a fight, and P1 wins", "p1->p2"],
+	["p1 and p2 get in a fight, and p1 wins", "p1->p2"],
 	["p1 finds out p2 is a figment of their imagination", "->p2"],
+	["p1 starves to death", "->p1"],
+	["p1 listens to some banger music"],
+	["p1 does some geometry"],
+	["p1 and p2 have a sword duel, poorly", "p1->p1;p2->p2"],
+	["p1 and p2 fail to find swords for their duel"],
+	["p1 and p2 have a picnic"],
+	["p1 eats some yummy berries", "->p1"],
+	["p1s bed was a mimic", "->p1"],
+	["p1 falls asleep"],
+	["p1 fills in a pit"],
+	["p1, p2 and p3 hold a party"],
+	["p1 discovers the meaning of life"]
 ].map(([sentence, directives]) => {
 	try {
 		return new Core.HungerGamesEvent(sentence, new Core.HungerGamesInformation(directives))
